@@ -6,13 +6,188 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:background="@color/viki"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:background="@color/blue"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                app:srcCompat="@drawable/user1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_marginLeft="470px"
+                android:text="Jason"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="420px"
+                android:textColor="@color/white"
+                android:text="03081220018"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/blue"
+            android:paddingLeft="10px"
+            android:paddingRight="20px"
+            android:paddingTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UPH"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="110dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fakultas Ilmu Komputer" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Tahun ke 2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:background="@color/blue"
+            android:orientation="horizontal"
+            android:paddingLeft="10px"
+            android:paddingRight="20px"
+            android:paddingBottom="0px">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Medan"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:text="Jurusan Sistem Informasi"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Semester 4"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:orientation="vertical"
+            android:id="@+id/verelangkasa"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/nc"
+                android:paddingTop="15dp"
+                android:text="1000"
+                android:textColor="@color/muis"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/nc"
+                android:paddingBottom="15dp"
+                android:text="Student Engagement Point"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:id="@+id/vikidarmana">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/nc"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Profil"
+                android:textColor="@color/muis"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/nc"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Ubah Profil Saya"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

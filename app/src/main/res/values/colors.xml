@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#132481</color>
+    <color name="nc">#051155</color>
+    <color name="viki">#0B102E</color>
+    <color name="muis">#FFE444</color>
+    <color name="meg">#535144</color>
 </resources>
