@@ -1,5 +1,6 @@
 package edu.uph.uts_jason;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,10 +15,10 @@ public class MainActivity3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main3);
 
 
-        LinearLayout ferelaaaLayout = findViewById(R.id.ferelaaa);
+        Button ferelaaaLayout = findViewById(R.id.ferelaaa);
 
 
         ferelaaaLayout.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +40,12 @@ public class MainActivity3 extends AppCompatActivity {
                         "\nJurusan: " + jurusan + "\nTahun Masuk: " + tahunMasuk;
 
                 Toast.makeText(MainActivity3.this, toastMessage, Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MainActivity3.this, MainActivity.class);
+                startActivity(intent);
             }
-        });
+        }
+
+        );
     }
 }

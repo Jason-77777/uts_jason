@@ -124,14 +124,15 @@
             android:layout_width="match_parent"
             android:layout_height="47dp"
             android:orientation="vertical"
-            android:id="@+id/ferelaaa"
+
             android:clickable="true"
             android:focusable="true">
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Button"
+                android:id="@+id/ferelaaa"/>
         </LinearLayout>
 
     </LinearLayout>
