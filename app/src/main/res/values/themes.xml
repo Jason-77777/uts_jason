@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Uts_jason" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/nc</item>
     </style>
 
     <style name="Theme.Uts_jason" parent="Base.Theme.Uts_jason" />
